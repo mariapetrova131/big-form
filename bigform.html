@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bigform.css">
+	<meta charset="utf-8">
+</head>
+<body>
+
+<div id="form">
+	<p><em>Пожалуйста, заполните форму. Обязательные поля помечены </em><sup>*</sup></p>
+		<form>
+		<fieldset>
+			<legend>Контактная информация</legend>
+			<label>
+				<div class="text"> Имя<sup>*</sup></div>
+				<input class="info" type="text" name="name"  required>
+			</label>
+
+			<br>
+
+			<label>
+				<div class="text">Телефон</div> <input class="info"  type="" name="phone">
+			</label>
+
+			<br>
+
+
+			<label>
+			<div class="text">Email<sup>*</sup></div>
+			<input class="info"  type="email" name="email" required>
+			</label>
+
+		</fieldset>
+
+			<br>
+		<fieldset>
+			<legend>Персональная информация</legend>
+			<label>
+			<div class="text">Возраст<sup>*</sup></div>
+			<input class="info"  type="" name="age"  required>
+			</label>
+			<br>
+
+			<label>
+			<div class="text">Пол</div>
+			<select name="sex">
+				<option>Женский</option>
+				<option>Мужской</option>
+			</select></label>
+			<br>
+
+			<label><div class="text">Перечислите личные качества</div>
+			<textarea rows="4" cols="25"></textarea></label>
+		</fieldset>
+		<br>
+
+		<fieldset>Выберите ваших любимых животных<br>
+		<div class="animals">
+				<div class="group">
+				<input type="checkbox" name="zebra" value="1">Зебра
+				<br>
+				<input type="checkbox" name="cat" value="3">Кошка
+				</div>
+				<div class="group">
+				<input type="checkbox" name="anaconda" value="5">Анаконда
+				<br>
+				<input type="checkbox" name="human" value="7">Человек
+				</div>
+					<br>
+					<div class="group">
+				<input type="checkbox" name="elephant" value="2">Слон
+				<br>
+				<input type="checkbox" name="antelope" value="4">Антилопа
+				</div>	
+				<div class="group">
+				<input type="checkbox" name="pigeon" value="6">Голубь
+				<br>
+				<input type="checkbox" name="crab" value="8">Краб
+				</div>
+				</div>
+		 </fieldset>
+				<button>Отправить информацию </button>
+</form>
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
+

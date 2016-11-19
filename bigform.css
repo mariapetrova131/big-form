@@ -1,0 +1,44 @@
+sup {
+	color: red;
+}
+
+
+#form {
+	width: 40%;
+	top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+}
+
+.info {
+	
+	width: 250px;
+}
+
+.text {
+	display: inline-block;
+width: 100px;
+}
+
+textarea {
+	width: 250px;
+}
+
+select {
+	width: 256px;
+}
+
+
+
+.group {
+	width: 100px;
+display: inline-block;
+
+}
+
+.animals {
+	
+display: flex;
+}
